@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import izaakLogo from '/image001.png';
+import './App.css';
+import { BsGithub, BsLinkedin, BsMedium } from 'react-icons/bs';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <img src={izaakLogo} className='logo' alt='Vite logo' />
+      </div>
+      <div>
+        <p>Izaak is working hard...</p>
+      </div>
+      <div className='flex mt-8 text-3xl w-full justify-center space-x-4'>
+        <a
+          target='_blank'
+          className='hover:text-white transition ease-in-out'
+          href='https://www.linkedin.com/in/izaak-dale/'
+        >
+          <BsLinkedin />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a
+          target='_blank'
+          className='hover:text-white transition ease-in-out'
+          href='https://github.com/izaakdale'
+        >
+          <BsGithub />
+        </a>
+        <a
+          target='_blank'
+          className='hover:text-white transition ease-in-out'
+          href='https://medium.com/@izaakdaledev'
+        >
+          <BsMedium />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
