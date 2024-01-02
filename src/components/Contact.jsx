@@ -15,7 +15,7 @@ export default function Contact() {
           start: '-100% 70%',
           end: '100% 70%',
           scrub: true,
-          markers: true,
+          markers: false,
         },
       });
 
