@@ -37,7 +37,7 @@ function App() {
   let ctx = gsap.context();
 
   return (
-    <div className='relative' ref={comp}>
+    <div className='relative pb-12' ref={comp}>
       <div
         id='intro-slider'
         className='w-full h-screen justify-between absolute top-0 left-0 flex flex-col px-4 py-14 font-spaceGrotesk text-7xl lg:text-9xl text-fuchsia-100 text-left z-10 tracking-tighter'

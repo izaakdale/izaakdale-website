@@ -13,9 +13,9 @@ export default function Contact() {
         scrollTrigger: {
           trigger: id,
           start: '-100% 70%',
-          end: '200% 70%',
+          end: '100% 70%',
           scrub: true,
-          markers: false,
+          markers: true,
         },
       });
 
