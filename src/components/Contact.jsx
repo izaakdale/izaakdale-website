@@ -48,7 +48,7 @@ export default function Contact() {
         <a
           target='_blank'
           className='hover:text-white hover: hover:shadow-md transition ease-in-out text-7xl '
-          href='mailto:izaakdaledev.com'
+          href='https://linkedin.com/in/izaak-dale'
         >
           <FaLinkedin />
         </a>

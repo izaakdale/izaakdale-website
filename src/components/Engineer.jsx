@@ -74,7 +74,7 @@ export default function Engineer() {
         <FaRust />
       </div>
       <div id='txt-12' className='absolute top-[34%] left-[55%]'>
-        Cybersecutiry
+        Cybersecurity
       </div>
     </div>
   );
