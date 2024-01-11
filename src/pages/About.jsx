@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='w-[90%] md:w-[60%] mx-auto mt-12 font-spaceGrotesk text-lg'>
+    <div className='w-[90%] md:w-[60%] mx-auto mt-8 font-spaceGrotesk text-lg'>
       <p className=''>
         I am a software engineer and developer living in Vancouver, Canada. I
         have worked in a number of industries, leading teams and creating
