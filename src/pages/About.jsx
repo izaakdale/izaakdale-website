@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='w-[90%] md:w-[70%] mx-4 md:mx-24 mt-8 font-spaceGrotesk text-lg'>
+    <div className='w-[90%] md:w-[60%] mx-auto mt-12 font-spaceGrotesk text-lg'>
       <p className=''>
         I am a software engineer and developer living in Vancouver, Canada. I
         have worked in a number of industries, leading teams and creating
@@ -37,7 +37,13 @@ export default function About() {
         </a>{' '}
         I made to gain a deeper understanding of Kubernetes Custom Resource
         Desfinitions. Here I was able to associate the resource to an S3 bucket
-        in my account, allowing me to create them using the K8s API.
+        in my account, allowing me to create them using the K8s API. See code{' '}
+        <a
+          href='https://github.com/izaakdale/simpleplane'
+          className='underline text-fuchsia-200 hover:text-fuchsia-400'
+        >
+          here
+        </a>{' '}
       </p>
     </div>
   );
